@@ -2,7 +2,7 @@ const NATIVE_MODULE_NAME = 'ExpoMotionBlurView';
 const COMPONENT_NAMES = {
   MOTION_BLUR_VIEW: 'MotionBlurView',
 } as const;
-const MOTION_BLUR_PROP_KEYS: string[] = [
+const MOTION_BLUR_PROP_KEYS = [
   'intensity',
   'speedForMaxBlur',
   'samples',
