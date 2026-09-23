@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "expo-motion-blur": ["../src/index"],
+      "expo-motion-blur/*": ["../src/*"]
+    }
+  }
+}
