@@ -1,0 +1,18 @@
+const DRAWER_LAYOUT = {
+  PEEK_WIDTH: 110,
+  CORNER_RADIUS: 48,
+  PARALLAX_OFFSET: 64,
+} as const;
+
+const DRAWER_GESTURE = {
+  ACTIVE_OFFSET: 12,
+  FLING_VELOCITY: 500,
+  OPEN_THRESHOLD: 0.5,
+} as const;
+
+const DRAWER_ANIMATION = {
+  SPRING: { mass: 1, stiffness: 280, damping: 33 },
+  CORNER_PROGRESS: 0.2,
+} as const;
+
+export { DRAWER_LAYOUT, DRAWER_GESTURE, DRAWER_ANIMATION };
