@@ -1,8 +1,11 @@
+
+
+
 # expo-motion-blur
 
 Native Motion Blur for Android & iOS
 
-https://github.com/user-attachments/assets/REPLACE_WITH_VIDEO_ID
+https://github.com/user-attachments/assets/77cb3937-59c4-4eb8-b522-1c9b5352c7aa
 
 ## Installation
 
