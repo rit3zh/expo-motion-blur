@@ -1,0 +1,9 @@
+{
+  "platforms": ["apple", "android"],
+  "apple": {
+    "modules": ["ExpoMotionBlurViewModule"]
+  },
+  "android": {
+    "modules": ["expo.modules.motionblurview.ExpoMotionBlurViewModule"]
+  }
+}
